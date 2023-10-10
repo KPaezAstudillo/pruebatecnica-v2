@@ -81,7 +81,7 @@ module.exports = (Test) => {
       }
 
       for (const imagen of req.files) {
-        if (!["image/jpeg", "image/png"].includes(imagen.mimetype)) {
+        if (!["image/jpeg", "image/png"].includes(imagen.contentType)) {
           return res.status(400).json({
             error: "Formato de imagen no válido. Solo se permite jpg y png.",
           });
