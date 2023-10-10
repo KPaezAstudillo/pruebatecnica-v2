@@ -1,0 +1,14 @@
+#root
+node_modules
+
+# Node.js
+backend/node_modules/
+npm-debug.log
+yarn-error.log
+
+
+# React
+/build
+frontend/node_modules
+.DS_Store
+.env

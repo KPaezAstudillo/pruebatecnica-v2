@@ -1,8 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
-import "dropify/dist/css/dropify.min.css";
-import "dropify/dist/js/dropify.min.js";
+
 
 import "./index.css";
 import App from "./App";
